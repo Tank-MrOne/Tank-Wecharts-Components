@@ -1,0 +1,12 @@
+.segmentPane{
+  width: 750rpx;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.segmentContainer{
+  text-align: center;
+  line-height:400rpx;
+  font-size: 50rpx;
+  flex: 1;
+}

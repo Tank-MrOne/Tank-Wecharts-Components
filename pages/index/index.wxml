@@ -1,0 +1,8 @@
+
+<!-- <x-segmentBar segmentTtems="{{segmentItems}}" bind:selectChange="_handlerSelectChange"/> -->
+<x-segmentPane segmentPaneTtems="{{segmentItems}}" >
+  <view slot="0" bindtap="bint" id="a">1</view>
+  <view slot="1" bindtap="bint" id="b">2</view>
+  <view slot="2" bindtap="bint" id="c">3</view>
+  <view slot="3" bindtap="bint" id="d">4</view>
+</x-segmentPane>

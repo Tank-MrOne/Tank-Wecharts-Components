@@ -1,0 +1,37 @@
+.segmentBar{
+  width: 750rpx;
+  height: 100rpx;
+  display: flex;
+  box-sizing: border-box;
+  border-bottom: solid 1rpx #ccc;
+}
+
+.segmentBar .segmentItem{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-evenly;
+  color: #F88065;
+}
+
+.segmentBar .segmentItem.active{
+  color: #fff;
+  background-color: #F88065;
+}
+
+.segmentBar .segmentItem .itemTitle{
+  font-size: 35rpx;
+}
+
+.segmentBar .segmentItem .subTitle{
+  font-size: 25rpx;
+}
+
+.segmentBar .segmentItem.active .itemTitle{
+  font-size: 35rpx;
+}
+
+.segmentBar .segmentItem.active .subTitle{
+  font-size: 25rpx;
+}

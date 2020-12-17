@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "扬帆",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list":[
+      {
+        "text":"主页",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text":"登入",
+        "pagePath": "pages/login/login"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
